@@ -1,26 +1,31 @@
+
 # Download devDependencies
-'yarn'
+`yarn`
 
 # Run
-'yarn start'
+`yarn start`
 
 # Package
-'yarn package'
+`yarn package`
+
+
+# Statement of Need
+
+PEAT is a portable, standalone application built off the Electron software framework and can be used on all major operating systems (Windows, Linux, and Macintosh) and provides an interface for users to annotate PDFs.  
+
+PEAT was designed to take advantage of the latest advancements in PDF text extraction methods while also allowing the user to annotate and label the data directly in PDF format. This approach allows a user to work in a document structure they are familiar with, improving the user experience and facilitating the creation of labeled data for machine consumption and training of future machine learning models.
+
+The application allows users to load PDFs directly from their file system along with data annotation forms with standard or customizable annotation types, labels, entities, and other features such as custom color highlighting. The application also includes features for users to edit and import/export data extraction schemas, export annotations of X and Y PDF coordinal structure (based on the image layer of the PDF), search and manipulate annotations, and save/load progress. Once a user has completed document annotation, the labeled data, full text, and all associated metadata is exportable in JSON format that can be processed by a variety of NLP model building applications such as Spacy or PyTorch.
 
 # User Guide
 
 **PDF Entity Annotation Tool (PEAT)**
 
-**Version 1.1.1**
+**Version 1.0**
 
+1. Select the PDF and Schema (tags.json is included in the test folder.)
 
-1. Scope and Purpose
-The purpose of this project is to further the research and development of tools that NCEA can use in their creation of machine-readable datasets and machine learning research.  This effort consists of the following objectives:
-    1. Research and develop software for NCEA that provides the ability to annotate scientific publications for use in machine learning algorithms.  This software should be able to accept a list of tags provided by NCEA, allow the user to apply these tags to PDF documents in a web interface, and then extract out the information needed in machine-readable formats that can be used for machine learning.
-
-2. Select the PDF and Schema (tags.json is included in the test folder.)
-
-3. Annotate PDF
+2. Annotate PDF
     1.	Highlight text you wish to annotate and select *Add Annotation*.
     ![Alt text](user_guide_images/image022.png?raw=true "AddAnnotation")
     2.	Select the annotation type.
@@ -32,7 +37,7 @@ The purpose of this project is to further the research and development of tools 
 
     ![Alt text](user_guide_images/image028.png?raw=true "AddAnnotation")
 
-4. Save Annotations
+3. Save Annotations
     1.	Click *File* in the menu bar and select *Save Annotations*.
 
     ![Alt text](user_guide_images/image030.png?raw=true "AddAnnotation")
@@ -41,7 +46,7 @@ The purpose of this project is to further the research and development of tools 
 
     ![Alt text](user_guide_images/image032.png?raw=true "AddAnnotation")
 
-5. Load Annotations
+4. Load Annotations
     1.	Click File in the menu bar and select Load Annotations.
 
     ![Alt text](user_guide_images/image034.png?raw=true "AddAnnotation")
@@ -52,7 +57,7 @@ The purpose of this project is to further the research and development of tools 
 
     ![Alt text](user_guide_images/image038.png?raw=true "AddAnnotation")
 
-6. Delete Annotations
+5. Delete Annotations
     1. Select annotation you wish to delete from the table in the side bar.
 
     ![Alt text](user_guide_images/image040.png?raw=true "AddAnnotation")

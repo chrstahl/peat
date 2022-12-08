@@ -1,4 +1,8 @@
 
+# NodeJS and Yarn Requirement
+NodeJS: https://nodejs.org/
+Yarn: https://yarnpkg.com/
+
 # Download devDependencies
 `yarn`
 

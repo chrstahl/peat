@@ -15,5 +15,6 @@ release
 .env
 npm-debug.log
 .lock
+yarn.lock
 
 .idea

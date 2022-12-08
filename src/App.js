@@ -722,7 +722,7 @@ class App extends Component<Props, State> {
     const { tags } = this.state;
     const { relationships } = this.state;
     const electron = window.require('electron');
-    const dialog = electron.remote.dialog ;
+    // const dialog = electron.remote.dialog ;
     const ipcRenderer  = electron.ipcRenderer;
     const app = electron.app;
     const path = require('path');

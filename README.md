@@ -56,7 +56,7 @@ Version 1.0.1
 
 [https://github.com/USEPA/peat/releases/download/v1.0.1-win/peat-1.0.1.zip](https://github.com/USEPA/peat/releases/download/v1.0.1-win/peat-1.0.1.zip)
 
-2\. Right click PANDHA_1.0.0.zip' and select 'Extract All'
+2\. Right click peat-1.0.1.zip' and select 'Extract All'
 
   -----------------------------------------------------------------------
   ![](./media/image4.png)

@@ -50,16 +50,11 @@ Version 1.0.1
   ---------------------------------------------------------------------
 
 # 1 Installation
-
-## 1.1 Installation Mac OSX
-
-1\. [https://github.com/USEPA/peat/releases/download/v1.0.1-mac-arm/PEAT-1.0.1-arm64.dmg](https://github.com/USEPA/peat/releases/download/v1.0.1-mac-arm/PEAT-1.0.1-arm64.dmg)
-
-## 1.2 Installation Windows
+## 1.1 Installation Windows
 
 1\. Download latest version from (PEAT_1.1.0)
 
-[https://usepa.sharepoint.com/sites/DOEORNLCPAD/Shared%20Documents/General/Release%20Candidate/PANDHA_1.1.0.zip](https://usepa.sharepoint.com/sites/DOEORNLCPAD/Shared%20Documents/General/Release%20Candidate/PANDHA_RC1.zip)
+[https://github.com/USEPA/peat/releases/download/v1.0.1-win/peat-1.0.1.zip](https://github.com/USEPA/peat/releases/download/v1.0.1-win/peat-1.0.1.zip)
 
 2\. Right click PANDHA_1.0.0.zip' and select 'Extract All'
 

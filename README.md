@@ -53,21 +53,7 @@ Version 1.0.1
 
 ## 1.1 Installation Mac OSX
 
-1\. Download latest version from
-
-2\. Double click 'mac.zip' to unzip the file.
-
-  -----------------------------------------------------------------------
-  ![](./media/image2.png)
-
-  -----------------------------------------------------------------------
-
-3\. Double click 'ElectronReact' to launch the application.
-
-  -----------------------------------------------------------------------
-  ![Graphical user interface, application Description automatically
-  generated](./media/image3.png)
-  -----------------------------------------------------------------------
+1\. [https://github.com/USEPA/peat/releases/download/v1.0.1-mac-arm/PEAT-1.0.1-arm64.dmg](https://github.com/USEPA/peat/releases/download/v1.0.1-mac-arm/PEAT-1.0.1-arm64.dmg)
 
 ## 1.2 Installation Windows
 

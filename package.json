@@ -1,12 +1,12 @@
 {
   "name": "PEAT",
   "productName": "PEAT",
-  "version": "1.1.1",
+  "version": "1.0.1",
   "description": "PDF Entity Annotation Tool",
   "private": true,
   "devDependencies": {
     "electron": "^11.0.1",
-    "electron-builder": "^22.11.7",
+    "electron-builder": "^23.0.2",
     "foreman": "^2.0.0",
     "jest-puppeteer": "^4.4.0",
     "puppeteer": "^2.0.0",
@@ -47,7 +47,7 @@
     "autoprefixer": "10.4.5"
   },
   "build": {
-    "productName": "PANDHA",
+    "productName": "PEAT",
     "appId": "org.develar.ElectronReact",
     "files": [
       "dist/**/*",

@@ -143,31 +143,31 @@ the authors and do not necessarily reflect the views or policies of the
 U.S. EPA, UT-Battelle, LLC, or U.S. Department of Energy.</bold></p>
 <sec id="summary">
   <title>Summary</title>
-  <p>While text mining approaches – including Deep Learning (DL),
-  Artificial Intelligence (AI), and Machine Learning (ML) - continue to
-  expand at a rapid pace, the tools used by researchers to create the
-  labeled datasets required for training, modeling, and evaluation
-  remain rudimentary. Labeled datasets contain the target attributes the
-  machine is going to learn; for example, training an algorithm to
-  delineate between images of a car or truck would generally require a
-  set of images with a quantitative description of the underlying
-  features of each vehicle type. Development of labeled textual data
-  that can be used to build natural language machine learning models for
-  scientific literature is not currently integrated into existing manual
-  workflows used by domain experts. Published literature is rich with
-  important information, such as different types of embedded text,
-  plots, and tables that can all be used as inputs to train ML/natural
-  language processing (NLP) models, when extracted and prepared in
-  machine readable formats. Currently, both normalized data extraction
-  of use to domain experts and extraction to support development of
-  ML/NLP models are labor intensive and cumbersome manual processes.
-  Automatic extraction of data and information from formats such as PDFs
-  that are optimized for layout and human readability, not machine
-  readability. The PDF (Portable Document Format) Entity Annotation Tool
-  (<monospace>PEAT</monospace>) was developed with the goal of allowing
-  users to annotate publications within their current print format,
-  while also allowing those annotations to be captured in a
-  machine-readable format. One of the main issues with traditional
+  <p>While different text mining approaches – including the use of
+  Artificial Intelligence (AI) and other machine based methods -
+  continue to expand at a rapid pace, the tools used by researchers to
+  create the labeled datasets required for training, modeling, and
+  evaluation remain rudimentary. Labeled datasets contain the target
+  attributes the machine is going to learn; for example, training an
+  algorithm to delineate between images of a car or truck would
+  generally require a set of images with a quantitative description of
+  the underlying features of each vehicle type. Development of labeled
+  textual data that can be used to build natural language machine
+  learning models for scientific literature is not currently integrated
+  into existing manual workflows used by domain experts. Published
+  literature is rich with important information, such as different types
+  of embedded text, plots, and tables that can all be used as inputs to
+  train ML/natural language processing (NLP) models, when extracted and
+  prepared in machine readable formats. Currently, both normalized data
+  extraction of use to domain experts and extraction to support
+  development of ML/NLP models are labor intensive and cumbersome manual
+  processes. Automatic extraction of data and information from formats
+  such as PDFs that are optimized for layout and human readability, not
+  machine readability. The PDF (Portable Document Format) Entity
+  Annotation Tool (<monospace>PEAT</monospace>) was developed with the
+  goal of allowing users to annotate publications within their current
+  print format, while also allowing those annotations to be captured in
+  a machine-readable format. One of the main issues with traditional
   annotation tools is that they require transforming the PDF into plain
   text to facilitate the annotation process. While doing so lessens the
   technical challenges of annotating data, the user loses all structure
@@ -219,8 +219,8 @@ U.S. EPA, UT-Battelle, LLC, or U.S. Department of Energy.</bold></p>
   (<xref alt="Xu et al., 2013" rid="ref-XuU003A2013" ref-type="bibr">Xu
   et al., 2013</xref>).</p>
   <p>Existing annotation solutions such as BRAT
-  (<xref alt="Stentorp et al., 2022" rid="ref-brat" ref-type="bibr">Stentorp
-  et al., 2022</xref>), TeamTat
+  (<xref alt="Stenetorp et al., 2012" rid="ref-StenetorpU003A2012" ref-type="bibr">Stenetorp
+  et al., 2012</xref>), TeamTat
   (<xref alt="Islamaj et al., 2020" rid="ref-IslamajU003A2020" ref-type="bibr">Islamaj
   et al., 2020</xref>), GATE
   (<xref alt="GATE, 2022" rid="ref-gate" ref-type="bibr"><italic>GATE</italic>,
@@ -279,10 +279,10 @@ U.S. EPA, UT-Battelle, LLC, or U.S. Department of Energy.</bold></p>
   and all associated metadata is exportable in JSON format that can be
   processed by a variety of NLP model building applications such as
   Spacy or PyTorch
-  (<xref alt="Paszke et al., 2022" rid="ref-pytorch" ref-type="bibr">Paszke
-  et al., 2022</xref>;
-  <xref alt="“spaCy,” 2022" rid="ref-spacy" ref-type="bibr">“spaCy,”
-  2022</xref>).</p>
+  (<xref alt="Ansel et al., 2024" rid="ref-AnselU003A2024" ref-type="bibr">Ansel
+  et al., 2024</xref>;
+  <xref alt="Honnibal et al., 2020" rid="ref-HonnibalU003A2020" ref-type="bibr">Honnibal
+  et al., 2020</xref>).</p>
 </sec>
 <sec id="conclusion-and-future-work">
   <title>Conclusion and Future Work</title>
@@ -404,6 +404,97 @@ U.S. EPA, UT-Battelle, LLC, or U.S. Department of Energy.</bold></p>
       <pub-id pub-id-type="doi">10.1016/j.envint.2021.107025</pub-id>
     </element-citation>
   </ref>
+  <ref id="ref-AnselU003A2024">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ansel</surname><given-names>J.</given-names></name>
+        <name><surname>Yang</surname><given-names>E.</given-names></name>
+        <name><surname>He</surname><given-names>H.</given-names></name>
+        <name><surname>Gimelshein</surname><given-names>N.</given-names></name>
+        <name><surname>Jain</surname><given-names>A.</given-names></name>
+        <name><surname>Voznesensky</surname><given-names>M.</given-names></name>
+        <name><surname>Bao</surname><given-names>B.</given-names></name>
+        <name><surname>Bell</surname><given-names>P.</given-names></name>
+        <name><surname>Berard</surname><given-names>D.</given-names></name>
+        <name><surname>Burovski</surname><given-names>E.</given-names></name>
+        <name><surname>Chauhan</surname><given-names>G.</given-names></name>
+        <name><surname>Chourdia</surname><given-names>A.</given-names></name>
+        <name><surname>Constable</surname><given-names>W.</given-names></name>
+        <name><surname>Desmaison</surname><given-names>A.</given-names></name>
+        <name><surname>DeVito</surname><given-names>Z.</given-names></name>
+        <name><surname>Ellison</surname><given-names>E.</given-names></name>
+        <name><surname>Feng</surname><given-names>W.</given-names></name>
+        <name><surname>Gong</surname><given-names>J.</given-names></name>
+        <name><surname>Gschwind</surname><given-names>M.</given-names></name>
+        <name><surname>Hirsh</surname><given-names>B.</given-names></name>
+        <name><surname>Huang</surname><given-names>S.</given-names></name>
+        <name><surname>Kalambarkar</surname><given-names>K.</given-names></name>
+        <name><surname>Kirsch</surname><given-names>L.</given-names></name>
+        <name><surname>Lazos</surname><given-names>M.</given-names></name>
+        <name><surname>Lezcano</surname><given-names>M.</given-names></name>
+        <name><surname>Liang</surname><given-names>Y.</given-names></name>
+        <name><surname>Liang</surname><given-names>J.</given-names></name>
+        <name><surname>Lu</surname><given-names>Y.</given-names></name>
+        <name><surname>Luk</surname><given-names>C.</given-names></name>
+        <name><surname>Maher</surname><given-names>B.</given-names></name>
+        <name><surname>Pan</surname><given-names>Y.</given-names></name>
+        <name><surname>Puhrsch</surname><given-names>C.</given-names></name>
+        <name><surname>Reso</surname><given-names>M.</given-names></name>
+        <name><surname>Saroufim</surname><given-names>M.</given-names></name>
+        <name><surname>Siraichi</surname><given-names>M. Y.</given-names></name>
+        <name><surname>Suk</surname><given-names>H.</given-names></name>
+        <name><surname>Suo</surname><given-names>M.</given-names></name>
+        <name><surname>Tillet</surname><given-names>P.</given-names></name>
+        <name><surname>Wang</surname><given-names>E.</given-names></name>
+        <name><surname>Wang</surname><given-names>X.</given-names></name>
+        <name><surname>Wen</surname><given-names>W.</given-names></name>
+        <name><surname>Zhang</surname><given-names>S.</given-names></name>
+        <name><surname>Zhao</surname><given-names>X.</given-names></name>
+        <name><surname>Zhou</surname><given-names>K.</given-names></name>
+        <name><surname>Zou</surname><given-names>R.</given-names></name>
+        <name><surname>Mathews</surname><given-names>A.</given-names></name>
+        <name><surname>Chanan</surname><given-names>G.</given-names></name>
+        <name><surname>Wu</surname><given-names>P.</given-names></name>
+        <name><surname>Chintala</surname><given-names>S.</given-names></name>
+      </person-group>
+      <article-title>PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation</article-title>
+      <source>29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS ’24)</source>
+      <year iso-8601-date="2024">2024</year>
+      <uri>https://dl.acm.org/doi/10.1145/3620665.3640366</uri>
+      <pub-id pub-id-type="doi">10.1145/3620665.3640366</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-HonnibalU003A2020">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Honnibal</surname><given-names>M.</given-names></name>
+        <name><surname>Montani</surname><given-names>I.</given-names></name>
+        <name><surname>Van Landeghem</surname><given-names>S.</given-names></name>
+        <name><surname>Boyd</surname><given-names>A.</given-names></name>
+      </person-group>
+      <article-title>spaCy: Industrial-strength Natural Language Processing in Python.</article-title>
+      <year iso-8601-date="2020">2020</year>
+      <uri>https://zenodo.org/records/10009823</uri>
+      <pub-id pub-id-type="doi">10.5281/zenodo.1212303</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-StenetorpU003A2012">
+    <element-citation publication-type="paper-conference">
+      <person-group person-group-type="author">
+        <name><surname>Stenetorp</surname><given-names>Pontus</given-names></name>
+        <name><surname>Pyysalo</surname><given-names>Sampo</given-names></name>
+        <name><surname>Topić</surname><given-names>Goran</given-names></name>
+        <name><surname>Ohta</surname><given-names>Tomoko</given-names></name>
+        <name><surname>Ananiadou</surname><given-names>Sophia</given-names></name>
+        <name><surname>Tsujii</surname><given-names>Jun’ichi</given-names></name>
+      </person-group>
+      <article-title>brat: A web-based tool for NLP-assisted text annotation</article-title>
+      <source>Proceedings of the demonstrations session at EACL 2012</source>
+      <publisher-name>Association for Computational Linguistics</publisher-name>
+      <publisher-loc>Avignon, France</publisher-loc>
+      <year iso-8601-date="2012">2012</year>
+    </element-citation>
+  </ref>
   <ref id="ref-electron">
     <element-citation>
       <article-title>Electron</article-title>
@@ -429,44 +520,6 @@ U.S. EPA, UT-Battelle, LLC, or U.S. Department of Energy.</bold></p>
       <publisher-name>Mozilla</publisher-name>
       <year iso-8601-date="2022">2022</year>
       <uri>https://github.com/mozilla/pdf.js/</uri>
-    </element-citation>
-  </ref>
-  <ref id="ref-pytorch">
-    <element-citation>
-      <person-group person-group-type="author">
-        <name><surname>Paszke</surname><given-names>Adam</given-names></name>
-        <name><surname>Gross</surname><given-names>Sam</given-names></name>
-        <name><surname>Chintala</surname><given-names>Soumith</given-names></name>
-        <name><surname>Chanan</surname><given-names>Gregory</given-names></name>
-      </person-group>
-      <article-title>PyTorch</article-title>
-      <source>GitHub repository</source>
-      <publisher-name>Meta AI</publisher-name>
-      <year iso-8601-date="2022">2022</year>
-      <uri>https://github.com/pytorch/pytorch</uri>
-    </element-citation>
-  </ref>
-  <ref id="ref-brat">
-    <element-citation>
-      <person-group person-group-type="author">
-        <name><surname>Stentorp</surname><given-names>Pontus</given-names></name>
-        <name><surname>Pyysalo</surname><given-names>Sampo</given-names></name>
-        <name><surname>Topic</surname><given-names>Goran</given-names></name>
-      </person-group>
-      <article-title>Brat rapid annotation tool</article-title>
-      <source>GitHub repository</source>
-      <publisher-name>nlplab</publisher-name>
-      <year iso-8601-date="2022">2022</year>
-      <uri>https://github.com/nlplab/brat</uri>
-    </element-citation>
-  </ref>
-  <ref id="ref-spacy">
-    <element-citation>
-      <article-title>spaCy</article-title>
-      <source>GitHub repository</source>
-      <publisher-name>explosion</publisher-name>
-      <year iso-8601-date="2022">2022</year>
-      <uri>https://github.com/explosion/spaCy</uri>
     </element-citation>
   </ref>
   <ref id="ref-highlight">

@@ -211,11 +211,11 @@ U.S. EPA, UT-Battelle, LLC, or U.S. Department of Energy.</bold></p>
   documents while maintaining their visual look and structure. While the
   format handles that task very well, it does not lend to the extraction
   of data to other formats. The opening of the PDF standard in 2008
-  (<xref alt="“Document Management — Portable Document Format — Part 2,” 2022" rid="ref-pdf" ref-type="bibr">“Document
-  Management — Portable Document Format — Part 2,” 2022</xref>) has
-  helped facilitate PDF text extraction, but document formatting and
-  content (e.g., coordinates of text within a document) can still be
-  lost during PDF to text conversion using currently available tools
+  (<xref alt="“PDF,” 2022" rid="ref-pdf" ref-type="bibr">“PDF,”
+  2022</xref>) has helped facilitate PDF text extraction, but document
+  formatting and content (e.g., coordinates of text within a document)
+  can still be lost during PDF to text conversion using currently
+  available tools
   (<xref alt="Xu et al., 2013" rid="ref-XuU003A2013" ref-type="bibr">Xu
   et al., 2013</xref>).</p>
   <p>Existing annotation solutions such as BRAT
@@ -506,7 +506,7 @@ U.S. EPA, UT-Battelle, LLC, or U.S. Department of Energy.</bold></p>
   </ref>
   <ref id="ref-pdf">
     <element-citation>
-      <article-title>Document management — portable document format — part 2: PDF 2.0</article-title>
+      <article-title>PDF</article-title>
       <source>ISO Standard</source>
       <publisher-name>ISO 32000-2:2020</publisher-name>
       <year iso-8601-date="2022">2022</year>

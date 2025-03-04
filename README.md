@@ -1,5 +1,7 @@
 # PEAT
 
+[![DOI](https://zenodo.org/badge/499126355.svg)](https://doi.org/10.5281/zenodo.14969195)
+
 PEAT (PDF Entity Annotation Tool) is a portable, standalone application built off the Electron software framework and can be used on all major operating systems (Windows, Linux, and Macintosh) and provides an interface for users to annotate PDFs.
 
 PEAT was designed to take advantage of the latest advancements in PDF text extraction methods while also allowing the user to annotate and label the data directly in PDF format. This approach allows a user to work in a document structure they are familiar with, improving the user experience and facilitating the creation of labeled data for machine consumption and training of future machine learning models.
